@@ -1,0 +1,333 @@
+2025-11-18 13:13:04,724 INFO    StreamThr :20872 [internal.py:wandb_internal():85] W&B internal server running at pid: 20872, started at: 2025-11-18 13:13:04.724143
+2025-11-18 13:13:04,724 DEBUG   HandlerThread:20872 [handler.py:handle_request():158] handle_request: status
+2025-11-18 13:13:04,732 INFO    WriterThread:20872 [datastore.py:open_for_write():87] open: D:\OneDrive - Queen's University\Multimodal-Quiz\Multimodal-Quiz\code\wandb\run-20251118_131304-hzlcqqzd\run-hzlcqqzd.wandb
+2025-11-18 13:13:04,732 DEBUG   SenderThread:20872 [sender.py:send():379] send: header
+2025-11-18 13:13:04,732 DEBUG   SenderThread:20872 [sender.py:send():379] send: run
+2025-11-18 13:13:06,390 INFO    SenderThread:20872 [dir_watcher.py:__init__():211] watching files in: D:\OneDrive - Queen's University\Multimodal-Quiz\Multimodal-Quiz\code\wandb\run-20251118_131304-hzlcqqzd\files
+2025-11-18 13:13:06,395 INFO    SenderThread:20872 [sender.py:_start_run_threads():1188] run started: hzlcqqzd with start time 1763489584.724143
+2025-11-18 13:13:06,405 DEBUG   HandlerThread:20872 [handler.py:handle_request():158] handle_request: check_version
+2025-11-18 13:13:06,405 DEBUG   SenderThread:20872 [sender.py:send_request():406] send_request: check_version
+2025-11-18 13:13:06,847 DEBUG   HandlerThread:20872 [handler.py:handle_request():158] handle_request: run_start
+2025-11-18 13:13:06,876 DEBUG   HandlerThread:20872 [system_info.py:__init__():26] System info init
+2025-11-18 13:13:06,876 DEBUG   HandlerThread:20872 [system_info.py:__init__():41] System info init done
+2025-11-18 13:13:06,876 INFO    HandlerThread:20872 [system_monitor.py:start():194] Starting system monitor
+2025-11-18 13:13:06,876 INFO    SystemMonitor:20872 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2025-11-18 13:13:06,876 INFO    HandlerThread:20872 [system_monitor.py:probe():214] Collecting system info
+2025-11-18 13:13:06,876 INFO    SystemMonitor:20872 [interfaces.py:start():188] Started cpu monitoring
+2025-11-18 13:13:06,885 INFO    SystemMonitor:20872 [interfaces.py:start():188] Started disk monitoring
+2025-11-18 13:13:06,885 INFO    SystemMonitor:20872 [interfaces.py:start():188] Started gpu monitoring
+2025-11-18 13:13:06,885 INFO    SystemMonitor:20872 [interfaces.py:start():188] Started memory monitoring
+2025-11-18 13:13:06,893 INFO    SystemMonitor:20872 [interfaces.py:start():188] Started network monitoring
+2025-11-18 13:13:06,893 DEBUG   HandlerThread:20872 [system_info.py:probe():152] Probing system
+2025-11-18 13:13:06,893 DEBUG   HandlerThread:20872 [gitlib.py:_init_repo():56] git repository is invalid
+2025-11-18 13:13:06,893 DEBUG   HandlerThread:20872 [system_info.py:probe():200] Probing system done
+2025-11-18 13:13:06,893 DEBUG   HandlerThread:20872 [system_monitor.py:probe():223] {'os': 'Windows-10-10.0.26100-SP0', 'python': '3.8.18', 'heartbeatAt': '2025-11-18T18:13:06.893489', 'startedAt': '2025-11-18T18:13:04.716531', 'docker': None, 'cuda': None, 'args': (), 'state': 'running', 'program': "d:\\onedrive - queen's university\\multimodal-quiz\\multimodal-quiz\\code\\044_train_abmil_survival.py", 'codePathLocal': '044_train_abmil_survival.py', 'codePath': '044_train_abmil_survival.py', 'host': 'folding163', 'username': 'fakbarifar', 'executable': 'C:\\Users\\fakbarifar\\anaconda3\\envs\\CreateChallenge\\python.exe', 'cpu_count': 8, 'cpu_count_logical': 8, 'cpu_freq': {'current': 3600.0, 'min': 0.0, 'max': 3600.0}, 'cpu_freq_per_core': [{'current': 3600.0, 'min': 0.0, 'max': 3600.0}], 'disk': {'/': {'total': 1862.8906211853027, 'used': 945.5017242431641}}, 'gpu': 'NVIDIA GeForce RTX 2080 Ti', 'gpu_count': 1, 'gpu_devices': [{'name': 'NVIDIA GeForce RTX 2080 Ti', 'memory_total': 11811160064}], 'memory': {'total': 63.829498291015625}}
+2025-11-18 13:13:06,893 INFO    HandlerThread:20872 [system_monitor.py:probe():224] Finished collecting system info
+2025-11-18 13:13:06,893 INFO    HandlerThread:20872 [system_monitor.py:probe():227] Publishing system info
+2025-11-18 13:13:06,893 DEBUG   HandlerThread:20872 [system_info.py:_save_conda():209] Saving list of conda packages installed into the current environment
+2025-11-18 13:13:06,902 ERROR   HandlerThread:20872 [system_info.py:_save_conda():223] Error saving conda packages: [WinError 2] The system cannot find the file specified
+Traceback (most recent call last):
+  File "C:\Users\fakbarifar\anaconda3\envs\CreateChallenge\lib\site-packages\wandb\sdk\internal\system\system_info.py", line 216, in _save_conda
+    subprocess.call(
+  File "C:\Users\fakbarifar\anaconda3\envs\CreateChallenge\lib\subprocess.py", line 340, in call
+    with Popen(*popenargs, **kwargs) as p:
+  File "C:\Users\fakbarifar\anaconda3\envs\CreateChallenge\lib\subprocess.py", line 858, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "C:\Users\fakbarifar\anaconda3\envs\CreateChallenge\lib\subprocess.py", line 1327, in _execute_child
+    hp, ht, pid, tid = _winapi.CreateProcess(executable, args,
+FileNotFoundError: [WinError 2] The system cannot find the file specified
+2025-11-18 13:13:06,902 DEBUG   HandlerThread:20872 [system_info.py:_save_conda():224] Saving conda packages done
+2025-11-18 13:13:06,902 INFO    HandlerThread:20872 [system_monitor.py:probe():229] Finished publishing system info
+2025-11-18 13:13:06,918 DEBUG   SenderThread:20872 [sender.py:send():379] send: files
+2025-11-18 13:13:06,918 INFO    SenderThread:20872 [sender.py:_save_file():1454] saving file wandb-metadata.json with policy now
+2025-11-18 13:13:07,377 DEBUG   HandlerThread:20872 [handler.py:handle_request():158] handle_request: python_packages
+2025-11-18 13:13:07,377 DEBUG   SenderThread:20872 [sender.py:send_request():406] send_request: python_packages
+2025-11-18 13:13:07,377 DEBUG   HandlerThread:20872 [handler.py:handle_request():158] handle_request: stop_status
+2025-11-18 13:13:07,377 DEBUG   SenderThread:20872 [sender.py:send_request():406] send_request: stop_status
+2025-11-18 13:13:07,379 DEBUG   HandlerThread:20872 [handler.py:handle_request():158] handle_request: internal_messages
+2025-11-18 13:13:07,402 INFO    Thread-16 :20872 [dir_watcher.py:_on_file_created():271] file/dir created: D:\OneDrive - Queen's University\Multimodal-Quiz\Multimodal-Quiz\code\wandb\run-20251118_131304-hzlcqqzd\files\conda-environment.yaml
+2025-11-18 13:13:07,402 INFO    Thread-16 :20872 [dir_watcher.py:_on_file_created():271] file/dir created: D:\OneDrive - Queen's University\Multimodal-Quiz\Multimodal-Quiz\code\wandb\run-20251118_131304-hzlcqqzd\files\requirements.txt
+2025-11-18 13:13:07,402 INFO    Thread-16 :20872 [dir_watcher.py:_on_file_created():271] file/dir created: D:\OneDrive - Queen's University\Multimodal-Quiz\Multimodal-Quiz\code\wandb\run-20251118_131304-hzlcqqzd\files\wandb-metadata.json
+2025-11-18 13:13:08,012 INFO    wandb-upload_0:20872 [upload_job.py:push():130] Uploaded file C:\Users\FAKBAR~1\AppData\Local\Temp\tmptaafc04fwandb\fzwbliwh-wandb-metadata.json
+2025-11-18 13:13:08,232 DEBUG   SenderThread:20872 [sender.py:send():379] send: telemetry
+2025-11-18 13:13:08,241 DEBUG   SenderThread:20872 [sender.py:send():379] send: telemetry
+2025-11-18 13:13:08,365 DEBUG   HandlerThread:20872 [handler.py:handle_request():158] handle_request: internal_messages
+2025-11-18 13:13:08,406 INFO    Thread-16 :20872 [dir_watcher.py:_on_file_created():271] file/dir created: D:\OneDrive - Queen's University\Multimodal-Quiz\Multimodal-Quiz\code\wandb\run-20251118_131304-hzlcqqzd\files\output.log
+2025-11-18 13:13:08,432 DEBUG   SenderThread:20872 [sender.py:send():379] send: telemetry
+2025-11-18 13:13:09,376 DEBUG   HandlerThread:20872 [handler.py:handle_request():158] handle_request: internal_messages
+2025-11-18 13:13:09,491 DEBUG   HandlerThread:20872 [handler.py:handle_request():158] handle_request: partial_history
+2025-11-18 13:13:09,491 DEBUG   SenderThread:20872 [sender.py:send():379] send: history
+2025-11-18 13:13:09,491 DEBUG   SenderThread:20872 [sender.py:send_request():406] send_request: summary_record
+2025-11-18 13:13:09,499 INFO    SenderThread:20872 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2025-11-18 13:13:10,029 DEBUG   HandlerThread:20872 [handler.py:handle_request():158] handle_request: status_report
+2025-11-18 13:13:10,029 DEBUG   HandlerThread:20872 [handler.py:handle_request():158] handle_request: partial_history
+2025-11-18 13:13:10,029 DEBUG   SenderThread:20872 [sender.py:send():379] send: history
+2025-11-18 13:13:10,029 DEBUG   SenderThread:20872 [sender.py:send_request():406] send_request: summary_record
+2025-11-18 13:13:10,035 INFO    SenderThread:20872 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2025-11-18 13:13:10,378 DEBUG   HandlerThread:20872 [handler.py:handle_request():158] handle_request: internal_messages
+2025-11-18 13:13:10,428 INFO    Thread-16 :20872 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\OneDrive - Queen's University\Multimodal-Quiz\Multimodal-Quiz\code\wandb\run-20251118_131304-hzlcqqzd\files\output.log
+2025-11-18 13:13:10,428 INFO    Thread-16 :20872 [dir_watcher.py:_on_file_created():271] file/dir created: D:\OneDrive - Queen's University\Multimodal-Quiz\Multimodal-Quiz\code\wandb\run-20251118_131304-hzlcqqzd\files\wandb-summary.json
+2025-11-18 13:13:10,564 DEBUG   HandlerThread:20872 [handler.py:handle_request():158] handle_request: partial_history
+2025-11-18 13:13:10,564 DEBUG   SenderThread:20872 [sender.py:send():379] send: history
+2025-11-18 13:13:10,564 DEBUG   SenderThread:20872 [sender.py:send_request():406] send_request: summary_record
+2025-11-18 13:13:10,566 INFO    SenderThread:20872 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2025-11-18 13:13:11,120 DEBUG   HandlerThread:20872 [handler.py:handle_request():158] handle_request: partial_history
+2025-11-18 13:13:11,120 DEBUG   SenderThread:20872 [sender.py:send():379] send: history
+2025-11-18 13:13:11,120 DEBUG   SenderThread:20872 [sender.py:send_request():406] send_request: summary_record
+2025-11-18 13:13:11,120 INFO    SenderThread:20872 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2025-11-18 13:13:11,394 DEBUG   HandlerThread:20872 [handler.py:handle_request():158] handle_request: internal_messages
+2025-11-18 13:13:11,435 INFO    Thread-16 :20872 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\OneDrive - Queen's University\Multimodal-Quiz\Multimodal-Quiz\code\wandb\run-20251118_131304-hzlcqqzd\files\wandb-summary.json
+2025-11-18 13:13:11,647 DEBUG   HandlerThread:20872 [handler.py:handle_request():158] handle_request: partial_history
+2025-11-18 13:13:11,647 DEBUG   SenderThread:20872 [sender.py:send():379] send: history
+2025-11-18 13:13:11,647 DEBUG   SenderThread:20872 [sender.py:send_request():406] send_request: summary_record
+2025-11-18 13:13:11,656 INFO    SenderThread:20872 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2025-11-18 13:13:12,194 DEBUG   HandlerThread:20872 [handler.py:handle_request():158] handle_request: partial_history
+2025-11-18 13:13:12,194 DEBUG   SenderThread:20872 [sender.py:send():379] send: history
+2025-11-18 13:13:12,194 DEBUG   SenderThread:20872 [sender.py:send_request():406] send_request: summary_record
+2025-11-18 13:13:12,194 INFO    SenderThread:20872 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2025-11-18 13:13:12,395 DEBUG   HandlerThread:20872 [handler.py:handle_request():158] handle_request: internal_messages
+2025-11-18 13:13:12,436 INFO    Thread-16 :20872 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\OneDrive - Queen's University\Multimodal-Quiz\Multimodal-Quiz\code\wandb\run-20251118_131304-hzlcqqzd\files\wandb-summary.json
+2025-11-18 13:13:12,436 INFO    Thread-16 :20872 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\OneDrive - Queen's University\Multimodal-Quiz\Multimodal-Quiz\code\wandb\run-20251118_131304-hzlcqqzd\files\output.log
+2025-11-18 13:13:12,716 DEBUG   HandlerThread:20872 [handler.py:handle_request():158] handle_request: partial_history
+2025-11-18 13:13:12,716 DEBUG   SenderThread:20872 [sender.py:send():379] send: history
+2025-11-18 13:13:12,716 DEBUG   SenderThread:20872 [sender.py:send_request():406] send_request: summary_record
+2025-11-18 13:13:12,716 INFO    SenderThread:20872 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2025-11-18 13:13:13,264 DEBUG   HandlerThread:20872 [handler.py:handle_request():158] handle_request: partial_history
+2025-11-18 13:13:13,264 DEBUG   SenderThread:20872 [sender.py:send():379] send: history
+2025-11-18 13:13:13,264 DEBUG   SenderThread:20872 [sender.py:send_request():406] send_request: summary_record
+2025-11-18 13:13:13,264 INFO    SenderThread:20872 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2025-11-18 13:13:13,407 DEBUG   HandlerThread:20872 [handler.py:handle_request():158] handle_request: internal_messages
+2025-11-18 13:13:13,441 INFO    Thread-16 :20872 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\OneDrive - Queen's University\Multimodal-Quiz\Multimodal-Quiz\code\wandb\run-20251118_131304-hzlcqqzd\files\wandb-summary.json
+2025-11-18 13:13:13,808 DEBUG   HandlerThread:20872 [handler.py:handle_request():158] handle_request: partial_history
+2025-11-18 13:13:13,808 DEBUG   SenderThread:20872 [sender.py:send():379] send: history
+2025-11-18 13:13:13,808 DEBUG   SenderThread:20872 [sender.py:send_request():406] send_request: summary_record
+2025-11-18 13:13:13,816 INFO    SenderThread:20872 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2025-11-18 13:13:14,355 DEBUG   HandlerThread:20872 [handler.py:handle_request():158] handle_request: partial_history
+2025-11-18 13:13:14,355 DEBUG   SenderThread:20872 [sender.py:send():379] send: history
+2025-11-18 13:13:14,355 DEBUG   SenderThread:20872 [sender.py:send_request():406] send_request: summary_record
+2025-11-18 13:13:14,355 INFO    SenderThread:20872 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2025-11-18 13:13:14,411 DEBUG   HandlerThread:20872 [handler.py:handle_request():158] handle_request: internal_messages
+2025-11-18 13:13:14,451 INFO    Thread-16 :20872 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\OneDrive - Queen's University\Multimodal-Quiz\Multimodal-Quiz\code\wandb\run-20251118_131304-hzlcqqzd\files\wandb-summary.json
+2025-11-18 13:13:14,451 INFO    Thread-16 :20872 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\OneDrive - Queen's University\Multimodal-Quiz\Multimodal-Quiz\code\wandb\run-20251118_131304-hzlcqqzd\files\output.log
+2025-11-18 13:13:14,890 DEBUG   HandlerThread:20872 [handler.py:handle_request():158] handle_request: partial_history
+2025-11-18 13:13:14,898 DEBUG   SenderThread:20872 [sender.py:send():379] send: history
+2025-11-18 13:13:14,898 DEBUG   SenderThread:20872 [sender.py:send_request():406] send_request: summary_record
+2025-11-18 13:13:14,898 INFO    SenderThread:20872 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2025-11-18 13:13:15,418 DEBUG   HandlerThread:20872 [handler.py:handle_request():158] handle_request: internal_messages
+2025-11-18 13:13:15,440 DEBUG   HandlerThread:20872 [handler.py:handle_request():158] handle_request: partial_history
+2025-11-18 13:13:15,440 DEBUG   SenderThread:20872 [sender.py:send():379] send: history
+2025-11-18 13:13:15,440 DEBUG   SenderThread:20872 [sender.py:send_request():406] send_request: summary_record
+2025-11-18 13:13:15,440 DEBUG   HandlerThread:20872 [handler.py:handle_request():158] handle_request: status_report
+2025-11-18 13:13:15,448 INFO    SenderThread:20872 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2025-11-18 13:13:15,464 INFO    Thread-16 :20872 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\OneDrive - Queen's University\Multimodal-Quiz\Multimodal-Quiz\code\wandb\run-20251118_131304-hzlcqqzd\files\wandb-summary.json
+2025-11-18 13:13:16,000 DEBUG   HandlerThread:20872 [handler.py:handle_request():158] handle_request: partial_history
+2025-11-18 13:13:16,000 DEBUG   SenderThread:20872 [sender.py:send():379] send: history
+2025-11-18 13:13:16,000 DEBUG   SenderThread:20872 [sender.py:send_request():406] send_request: summary_record
+2025-11-18 13:13:16,008 INFO    SenderThread:20872 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2025-11-18 13:13:16,432 DEBUG   HandlerThread:20872 [handler.py:handle_request():158] handle_request: internal_messages
+2025-11-18 13:13:16,473 INFO    Thread-16 :20872 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\OneDrive - Queen's University\Multimodal-Quiz\Multimodal-Quiz\code\wandb\run-20251118_131304-hzlcqqzd\files\wandb-summary.json
+2025-11-18 13:13:16,473 INFO    Thread-16 :20872 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\OneDrive - Queen's University\Multimodal-Quiz\Multimodal-Quiz\code\wandb\run-20251118_131304-hzlcqqzd\files\output.log
+2025-11-18 13:13:16,598 DEBUG   HandlerThread:20872 [handler.py:handle_request():158] handle_request: partial_history
+2025-11-18 13:13:16,598 DEBUG   SenderThread:20872 [sender.py:send():379] send: history
+2025-11-18 13:13:16,598 DEBUG   SenderThread:20872 [sender.py:send_request():406] send_request: summary_record
+2025-11-18 13:13:16,598 INFO    SenderThread:20872 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2025-11-18 13:13:17,170 DEBUG   HandlerThread:20872 [handler.py:handle_request():158] handle_request: partial_history
+2025-11-18 13:13:17,170 DEBUG   SenderThread:20872 [sender.py:send():379] send: history
+2025-11-18 13:13:17,170 DEBUG   SenderThread:20872 [sender.py:send_request():406] send_request: summary_record
+2025-11-18 13:13:17,170 INFO    SenderThread:20872 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2025-11-18 13:13:17,437 DEBUG   HandlerThread:20872 [handler.py:handle_request():158] handle_request: internal_messages
+2025-11-18 13:13:17,478 INFO    Thread-16 :20872 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\OneDrive - Queen's University\Multimodal-Quiz\Multimodal-Quiz\code\wandb\run-20251118_131304-hzlcqqzd\files\wandb-summary.json
+2025-11-18 13:13:17,717 DEBUG   HandlerThread:20872 [handler.py:handle_request():158] handle_request: partial_history
+2025-11-18 13:13:17,717 DEBUG   SenderThread:20872 [sender.py:send():379] send: history
+2025-11-18 13:13:17,717 DEBUG   SenderThread:20872 [sender.py:send_request():406] send_request: summary_record
+2025-11-18 13:13:17,717 INFO    SenderThread:20872 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2025-11-18 13:13:18,271 DEBUG   HandlerThread:20872 [handler.py:handle_request():158] handle_request: partial_history
+2025-11-18 13:13:18,271 DEBUG   SenderThread:20872 [sender.py:send():379] send: history
+2025-11-18 13:13:18,271 DEBUG   SenderThread:20872 [sender.py:send_request():406] send_request: summary_record
+2025-11-18 13:13:18,271 INFO    SenderThread:20872 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2025-11-18 13:13:18,443 DEBUG   HandlerThread:20872 [handler.py:handle_request():158] handle_request: internal_messages
+2025-11-18 13:13:18,492 INFO    Thread-16 :20872 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\OneDrive - Queen's University\Multimodal-Quiz\Multimodal-Quiz\code\wandb\run-20251118_131304-hzlcqqzd\files\wandb-summary.json
+2025-11-18 13:13:18,492 INFO    Thread-16 :20872 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\OneDrive - Queen's University\Multimodal-Quiz\Multimodal-Quiz\code\wandb\run-20251118_131304-hzlcqqzd\files\output.log
+2025-11-18 13:13:18,850 DEBUG   HandlerThread:20872 [handler.py:handle_request():158] handle_request: partial_history
+2025-11-18 13:13:18,850 DEBUG   SenderThread:20872 [sender.py:send():379] send: history
+2025-11-18 13:13:18,850 DEBUG   SenderThread:20872 [sender.py:send_request():406] send_request: summary_record
+2025-11-18 13:13:18,850 INFO    SenderThread:20872 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2025-11-18 13:13:19,439 DEBUG   HandlerThread:20872 [handler.py:handle_request():158] handle_request: partial_history
+2025-11-18 13:13:19,439 DEBUG   SenderThread:20872 [sender.py:send():379] send: history
+2025-11-18 13:13:19,439 DEBUG   SenderThread:20872 [sender.py:send_request():406] send_request: summary_record
+2025-11-18 13:13:19,439 INFO    SenderThread:20872 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2025-11-18 13:13:19,455 DEBUG   HandlerThread:20872 [handler.py:handle_request():158] handle_request: internal_messages
+2025-11-18 13:13:19,504 INFO    Thread-16 :20872 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\OneDrive - Queen's University\Multimodal-Quiz\Multimodal-Quiz\code\wandb\run-20251118_131304-hzlcqqzd\files\wandb-summary.json
+2025-11-18 13:13:19,982 DEBUG   HandlerThread:20872 [handler.py:handle_request():158] handle_request: partial_history
+2025-11-18 13:13:19,982 DEBUG   SenderThread:20872 [sender.py:send():379] send: history
+2025-11-18 13:13:19,982 DEBUG   SenderThread:20872 [sender.py:send_request():406] send_request: summary_record
+2025-11-18 13:13:19,982 INFO    SenderThread:20872 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2025-11-18 13:13:20,470 DEBUG   HandlerThread:20872 [handler.py:handle_request():158] handle_request: internal_messages
+2025-11-18 13:13:20,519 INFO    Thread-16 :20872 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\OneDrive - Queen's University\Multimodal-Quiz\Multimodal-Quiz\code\wandb\run-20251118_131304-hzlcqqzd\files\wandb-summary.json
+2025-11-18 13:13:20,519 INFO    Thread-16 :20872 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\OneDrive - Queen's University\Multimodal-Quiz\Multimodal-Quiz\code\wandb\run-20251118_131304-hzlcqqzd\files\output.log
+2025-11-18 13:13:20,551 DEBUG   HandlerThread:20872 [handler.py:handle_request():158] handle_request: status_report
+2025-11-18 13:13:20,551 DEBUG   HandlerThread:20872 [handler.py:handle_request():158] handle_request: partial_history
+2025-11-18 13:13:20,551 DEBUG   SenderThread:20872 [sender.py:send():379] send: history
+2025-11-18 13:13:20,551 DEBUG   SenderThread:20872 [sender.py:send_request():406] send_request: summary_record
+2025-11-18 13:13:20,551 INFO    SenderThread:20872 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2025-11-18 13:13:21,103 DEBUG   HandlerThread:20872 [handler.py:handle_request():158] handle_request: partial_history
+2025-11-18 13:13:21,103 DEBUG   SenderThread:20872 [sender.py:send():379] send: history
+2025-11-18 13:13:21,103 DEBUG   SenderThread:20872 [sender.py:send_request():406] send_request: summary_record
+2025-11-18 13:13:21,103 INFO    SenderThread:20872 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2025-11-18 13:13:21,477 DEBUG   HandlerThread:20872 [handler.py:handle_request():158] handle_request: internal_messages
+2025-11-18 13:13:21,525 INFO    Thread-16 :20872 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\OneDrive - Queen's University\Multimodal-Quiz\Multimodal-Quiz\code\wandb\run-20251118_131304-hzlcqqzd\files\wandb-summary.json
+2025-11-18 13:13:21,639 DEBUG   HandlerThread:20872 [handler.py:handle_request():158] handle_request: partial_history
+2025-11-18 13:13:21,639 DEBUG   SenderThread:20872 [sender.py:send():379] send: history
+2025-11-18 13:13:21,639 DEBUG   SenderThread:20872 [sender.py:send_request():406] send_request: summary_record
+2025-11-18 13:13:21,647 INFO    SenderThread:20872 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2025-11-18 13:13:22,208 DEBUG   HandlerThread:20872 [handler.py:handle_request():158] handle_request: partial_history
+2025-11-18 13:13:22,208 DEBUG   SenderThread:20872 [sender.py:send():379] send: history
+2025-11-18 13:13:22,208 DEBUG   SenderThread:20872 [sender.py:send_request():406] send_request: summary_record
+2025-11-18 13:13:22,208 INFO    SenderThread:20872 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2025-11-18 13:13:22,371 DEBUG   HandlerThread:20872 [handler.py:handle_request():158] handle_request: stop_status
+2025-11-18 13:13:22,371 DEBUG   SenderThread:20872 [sender.py:send_request():406] send_request: stop_status
+2025-11-18 13:13:22,477 DEBUG   HandlerThread:20872 [handler.py:handle_request():158] handle_request: internal_messages
+2025-11-18 13:13:22,526 INFO    Thread-16 :20872 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\OneDrive - Queen's University\Multimodal-Quiz\Multimodal-Quiz\code\wandb\run-20251118_131304-hzlcqqzd\files\wandb-summary.json
+2025-11-18 13:13:22,526 INFO    Thread-16 :20872 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\OneDrive - Queen's University\Multimodal-Quiz\Multimodal-Quiz\code\wandb\run-20251118_131304-hzlcqqzd\files\output.log
+2025-11-18 13:13:22,795 DEBUG   HandlerThread:20872 [handler.py:handle_request():158] handle_request: partial_history
+2025-11-18 13:13:22,795 DEBUG   SenderThread:20872 [sender.py:send():379] send: history
+2025-11-18 13:13:22,795 DEBUG   SenderThread:20872 [sender.py:send_request():406] send_request: summary_record
+2025-11-18 13:13:22,795 INFO    SenderThread:20872 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2025-11-18 13:13:22,926 DEBUG   HandlerThread:20872 [handler.py:handle_request():158] handle_request: partial_history
+2025-11-18 13:13:22,926 DEBUG   SenderThread:20872 [sender.py:send():379] send: history
+2025-11-18 13:13:22,926 DEBUG   SenderThread:20872 [sender.py:send_request():406] send_request: summary_record
+2025-11-18 13:13:22,926 DEBUG   HandlerThread:20872 [handler.py:handle_request():158] handle_request: server_info
+2025-11-18 13:13:22,926 INFO    SenderThread:20872 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2025-11-18 13:13:22,926 DEBUG   SenderThread:20872 [sender.py:send():379] send: telemetry
+2025-11-18 13:13:22,926 DEBUG   SenderThread:20872 [sender.py:send_request():406] send_request: server_info
+2025-11-18 13:13:23,070 DEBUG   SenderThread:20872 [sender.py:send():379] send: exit
+2025-11-18 13:13:23,070 INFO    SenderThread:20872 [sender.py:send_exit():586] handling exit code: 0
+2025-11-18 13:13:23,070 INFO    SenderThread:20872 [sender.py:send_exit():588] handling runtime: 16
+2025-11-18 13:13:23,072 INFO    SenderThread:20872 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2025-11-18 13:13:23,072 INFO    SenderThread:20872 [sender.py:send_exit():594] send defer
+2025-11-18 13:13:23,072 DEBUG   HandlerThread:20872 [handler.py:handle_request():158] handle_request: defer
+2025-11-18 13:13:23,072 INFO    HandlerThread:20872 [handler.py:handle_request_defer():184] handle defer: 0
+2025-11-18 13:13:23,072 DEBUG   SenderThread:20872 [sender.py:send_request():406] send_request: defer
+2025-11-18 13:13:23,072 INFO    SenderThread:20872 [sender.py:send_request_defer():610] handle sender defer: 0
+2025-11-18 13:13:23,072 INFO    SenderThread:20872 [sender.py:transition_state():614] send defer: 1
+2025-11-18 13:13:23,072 DEBUG   HandlerThread:20872 [handler.py:handle_request():158] handle_request: defer
+2025-11-18 13:13:23,072 INFO    HandlerThread:20872 [handler.py:handle_request_defer():184] handle defer: 1
+2025-11-18 13:13:23,075 DEBUG   SenderThread:20872 [sender.py:send_request():406] send_request: defer
+2025-11-18 13:13:23,075 INFO    SenderThread:20872 [sender.py:send_request_defer():610] handle sender defer: 1
+2025-11-18 13:13:23,075 INFO    SenderThread:20872 [sender.py:transition_state():614] send defer: 2
+2025-11-18 13:13:23,075 DEBUG   HandlerThread:20872 [handler.py:handle_request():158] handle_request: defer
+2025-11-18 13:13:23,075 INFO    HandlerThread:20872 [handler.py:handle_request_defer():184] handle defer: 2
+2025-11-18 13:13:23,075 INFO    HandlerThread:20872 [system_monitor.py:finish():203] Stopping system monitor
+2025-11-18 13:13:23,075 DEBUG   SystemMonitor:20872 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2025-11-18 13:13:23,075 DEBUG   SystemMonitor:20872 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2025-11-18 13:13:23,075 DEBUG   SystemMonitor:20872 [system_monitor.py:_start():183] Publishing last batch of metrics
+2025-11-18 13:13:23,075 INFO    HandlerThread:20872 [interfaces.py:finish():200] Joined cpu monitor
+2025-11-18 13:13:23,075 INFO    HandlerThread:20872 [interfaces.py:finish():200] Joined disk monitor
+2025-11-18 13:13:23,141 INFO    HandlerThread:20872 [interfaces.py:finish():200] Joined gpu monitor
+2025-11-18 13:13:23,141 INFO    HandlerThread:20872 [interfaces.py:finish():200] Joined memory monitor
+2025-11-18 13:13:23,141 INFO    HandlerThread:20872 [interfaces.py:finish():200] Joined network monitor
+2025-11-18 13:13:23,141 DEBUG   SenderThread:20872 [sender.py:send_request():406] send_request: defer
+2025-11-18 13:13:23,141 INFO    SenderThread:20872 [sender.py:send_request_defer():610] handle sender defer: 2
+2025-11-18 13:13:23,141 INFO    SenderThread:20872 [sender.py:transition_state():614] send defer: 3
+2025-11-18 13:13:23,147 DEBUG   HandlerThread:20872 [handler.py:handle_request():158] handle_request: defer
+2025-11-18 13:13:23,147 INFO    HandlerThread:20872 [handler.py:handle_request_defer():184] handle defer: 3
+2025-11-18 13:13:23,147 DEBUG   SenderThread:20872 [sender.py:send_request():406] send_request: defer
+2025-11-18 13:13:23,147 INFO    SenderThread:20872 [sender.py:send_request_defer():610] handle sender defer: 3
+2025-11-18 13:13:23,147 INFO    SenderThread:20872 [sender.py:transition_state():614] send defer: 4
+2025-11-18 13:13:23,147 DEBUG   HandlerThread:20872 [handler.py:handle_request():158] handle_request: defer
+2025-11-18 13:13:23,147 INFO    HandlerThread:20872 [handler.py:handle_request_defer():184] handle defer: 4
+2025-11-18 13:13:23,147 DEBUG   SenderThread:20872 [sender.py:send_request():406] send_request: defer
+2025-11-18 13:13:23,147 INFO    SenderThread:20872 [sender.py:send_request_defer():610] handle sender defer: 4
+2025-11-18 13:13:23,147 INFO    SenderThread:20872 [sender.py:transition_state():614] send defer: 5
+2025-11-18 13:13:23,147 DEBUG   HandlerThread:20872 [handler.py:handle_request():158] handle_request: defer
+2025-11-18 13:13:23,147 INFO    HandlerThread:20872 [handler.py:handle_request_defer():184] handle defer: 5
+2025-11-18 13:13:23,147 DEBUG   SenderThread:20872 [sender.py:send():379] send: summary
+2025-11-18 13:13:23,147 INFO    SenderThread:20872 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2025-11-18 13:13:23,147 DEBUG   SenderThread:20872 [sender.py:send_request():406] send_request: defer
+2025-11-18 13:13:23,147 INFO    SenderThread:20872 [sender.py:send_request_defer():610] handle sender defer: 5
+2025-11-18 13:13:23,147 INFO    SenderThread:20872 [sender.py:transition_state():614] send defer: 6
+2025-11-18 13:13:23,147 DEBUG   HandlerThread:20872 [handler.py:handle_request():158] handle_request: defer
+2025-11-18 13:13:23,147 INFO    HandlerThread:20872 [handler.py:handle_request_defer():184] handle defer: 6
+2025-11-18 13:13:23,147 DEBUG   SenderThread:20872 [sender.py:send_request():406] send_request: defer
+2025-11-18 13:13:23,147 INFO    SenderThread:20872 [sender.py:send_request_defer():610] handle sender defer: 6
+2025-11-18 13:13:23,151 DEBUG   HandlerThread:20872 [handler.py:handle_request():158] handle_request: status_report
+2025-11-18 13:13:23,534 INFO    Thread-16 :20872 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\OneDrive - Queen's University\Multimodal-Quiz\Multimodal-Quiz\code\wandb\run-20251118_131304-hzlcqqzd\files\wandb-summary.json
+2025-11-18 13:13:23,856 INFO    SenderThread:20872 [sender.py:transition_state():614] send defer: 7
+2025-11-18 13:13:23,856 DEBUG   HandlerThread:20872 [handler.py:handle_request():158] handle_request: defer
+2025-11-18 13:13:23,856 INFO    HandlerThread:20872 [handler.py:handle_request_defer():184] handle defer: 7
+2025-11-18 13:13:23,856 DEBUG   SenderThread:20872 [sender.py:send_request():406] send_request: defer
+2025-11-18 13:13:23,856 INFO    SenderThread:20872 [sender.py:send_request_defer():610] handle sender defer: 7
+2025-11-18 13:13:24,081 DEBUG   HandlerThread:20872 [handler.py:handle_request():158] handle_request: poll_exit
+2025-11-18 13:13:24,304 INFO    SenderThread:20872 [sender.py:transition_state():614] send defer: 8
+2025-11-18 13:13:24,312 DEBUG   SenderThread:20872 [sender.py:send_request():406] send_request: poll_exit
+2025-11-18 13:13:24,312 DEBUG   HandlerThread:20872 [handler.py:handle_request():158] handle_request: defer
+2025-11-18 13:13:24,312 INFO    HandlerThread:20872 [handler.py:handle_request_defer():184] handle defer: 8
+2025-11-18 13:13:24,313 DEBUG   SenderThread:20872 [sender.py:send_request():406] send_request: defer
+2025-11-18 13:13:24,313 INFO    SenderThread:20872 [sender.py:send_request_defer():610] handle sender defer: 8
+2025-11-18 13:13:24,313 INFO    SenderThread:20872 [job_builder.py:build():440] Attempting to build job artifact
+2025-11-18 13:13:24,313 INFO    SenderThread:20872 [job_builder.py:_get_source_type():580] no source found
+2025-11-18 13:13:24,313 INFO    SenderThread:20872 [sender.py:transition_state():614] send defer: 9
+2025-11-18 13:13:24,313 DEBUG   HandlerThread:20872 [handler.py:handle_request():158] handle_request: defer
+2025-11-18 13:13:24,313 INFO    HandlerThread:20872 [handler.py:handle_request_defer():184] handle defer: 9
+2025-11-18 13:13:24,313 DEBUG   SenderThread:20872 [sender.py:send_request():406] send_request: defer
+2025-11-18 13:13:24,313 INFO    SenderThread:20872 [sender.py:send_request_defer():610] handle sender defer: 9
+2025-11-18 13:13:24,313 INFO    SenderThread:20872 [dir_watcher.py:finish():358] shutting down directory watcher
+2025-11-18 13:13:24,548 INFO    SenderThread:20872 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\OneDrive - Queen's University\Multimodal-Quiz\Multimodal-Quiz\code\wandb\run-20251118_131304-hzlcqqzd\files\output.log
+2025-11-18 13:13:24,548 INFO    SenderThread:20872 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\OneDrive - Queen's University\Multimodal-Quiz\Multimodal-Quiz\code\wandb\run-20251118_131304-hzlcqqzd\files\config.yaml
+2025-11-18 13:13:24,548 INFO    SenderThread:20872 [dir_watcher.py:finish():388] scan: D:\OneDrive - Queen's University\Multimodal-Quiz\Multimodal-Quiz\code\wandb\run-20251118_131304-hzlcqqzd\files
+2025-11-18 13:13:24,548 INFO    SenderThread:20872 [dir_watcher.py:finish():402] scan save: D:\OneDrive - Queen's University\Multimodal-Quiz\Multimodal-Quiz\code\wandb\run-20251118_131304-hzlcqqzd\files\conda-environment.yaml conda-environment.yaml
+2025-11-18 13:13:24,548 INFO    SenderThread:20872 [dir_watcher.py:finish():402] scan save: D:\OneDrive - Queen's University\Multimodal-Quiz\Multimodal-Quiz\code\wandb\run-20251118_131304-hzlcqqzd\files\config.yaml config.yaml
+2025-11-18 13:13:24,548 INFO    SenderThread:20872 [dir_watcher.py:finish():402] scan save: D:\OneDrive - Queen's University\Multimodal-Quiz\Multimodal-Quiz\code\wandb\run-20251118_131304-hzlcqqzd\files\output.log output.log
+2025-11-18 13:13:24,548 INFO    SenderThread:20872 [dir_watcher.py:finish():402] scan save: D:\OneDrive - Queen's University\Multimodal-Quiz\Multimodal-Quiz\code\wandb\run-20251118_131304-hzlcqqzd\files\requirements.txt requirements.txt
+2025-11-18 13:13:24,548 INFO    SenderThread:20872 [dir_watcher.py:finish():402] scan save: D:\OneDrive - Queen's University\Multimodal-Quiz\Multimodal-Quiz\code\wandb\run-20251118_131304-hzlcqqzd\files\wandb-metadata.json wandb-metadata.json
+2025-11-18 13:13:24,548 INFO    SenderThread:20872 [dir_watcher.py:finish():402] scan save: D:\OneDrive - Queen's University\Multimodal-Quiz\Multimodal-Quiz\code\wandb\run-20251118_131304-hzlcqqzd\files\wandb-summary.json wandb-summary.json
+2025-11-18 13:13:24,548 INFO    SenderThread:20872 [sender.py:transition_state():614] send defer: 10
+2025-11-18 13:13:24,548 DEBUG   HandlerThread:20872 [handler.py:handle_request():158] handle_request: defer
+2025-11-18 13:13:24,548 INFO    HandlerThread:20872 [handler.py:handle_request_defer():184] handle defer: 10
+2025-11-18 13:13:24,548 DEBUG   SenderThread:20872 [sender.py:send_request():406] send_request: defer
+2025-11-18 13:13:24,548 INFO    SenderThread:20872 [sender.py:send_request_defer():610] handle sender defer: 10
+2025-11-18 13:13:24,548 INFO    SenderThread:20872 [file_pusher.py:finish():169] shutting down file pusher
+2025-11-18 13:13:24,878 INFO    wandb-upload_1:20872 [upload_job.py:push():130] Uploaded file D:\OneDrive - Queen's University\Multimodal-Quiz\Multimodal-Quiz\code\wandb\run-20251118_131304-hzlcqqzd\files\output.log
+2025-11-18 13:13:25,081 DEBUG   HandlerThread:20872 [handler.py:handle_request():158] handle_request: poll_exit
+2025-11-18 13:13:25,081 DEBUG   SenderThread:20872 [sender.py:send_request():406] send_request: poll_exit
+2025-11-18 13:13:25,237 INFO    wandb-upload_0:20872 [upload_job.py:push():130] Uploaded file D:\OneDrive - Queen's University\Multimodal-Quiz\Multimodal-Quiz\code\wandb\run-20251118_131304-hzlcqqzd\files\config.yaml
+2025-11-18 13:13:25,685 INFO    wandb-upload_3:20872 [upload_job.py:push():130] Uploaded file D:\OneDrive - Queen's University\Multimodal-Quiz\Multimodal-Quiz\code\wandb\run-20251118_131304-hzlcqqzd\files\wandb-summary.json
+2025-11-18 13:13:25,789 INFO    wandb-upload_2:20872 [upload_job.py:push():130] Uploaded file D:\OneDrive - Queen's University\Multimodal-Quiz\Multimodal-Quiz\code\wandb\run-20251118_131304-hzlcqqzd\files\requirements.txt
+2025-11-18 13:13:25,992 INFO    Thread-15 :20872 [sender.py:transition_state():614] send defer: 11
+2025-11-18 13:13:25,992 DEBUG   HandlerThread:20872 [handler.py:handle_request():158] handle_request: defer
+2025-11-18 13:13:25,992 INFO    HandlerThread:20872 [handler.py:handle_request_defer():184] handle defer: 11
+2025-11-18 13:13:25,992 DEBUG   SenderThread:20872 [sender.py:send_request():406] send_request: defer
+2025-11-18 13:13:25,992 INFO    SenderThread:20872 [sender.py:send_request_defer():610] handle sender defer: 11
+2025-11-18 13:13:25,992 INFO    SenderThread:20872 [file_pusher.py:join():175] waiting for file pusher
+2025-11-18 13:13:25,992 INFO    SenderThread:20872 [sender.py:transition_state():614] send defer: 12
+2025-11-18 13:13:25,992 DEBUG   HandlerThread:20872 [handler.py:handle_request():158] handle_request: defer
+2025-11-18 13:13:25,992 INFO    HandlerThread:20872 [handler.py:handle_request_defer():184] handle defer: 12
+2025-11-18 13:13:25,992 DEBUG   SenderThread:20872 [sender.py:send_request():406] send_request: defer
+2025-11-18 13:13:25,992 INFO    SenderThread:20872 [sender.py:send_request_defer():610] handle sender defer: 12
+2025-11-18 13:13:25,992 INFO    SenderThread:20872 [file_stream.py:finish():601] file stream finish called
+2025-11-18 13:13:26,086 DEBUG   HandlerThread:20872 [handler.py:handle_request():158] handle_request: poll_exit
+2025-11-18 13:13:26,365 INFO    SenderThread:20872 [file_stream.py:finish():605] file stream finish is done
+2025-11-18 13:13:26,365 INFO    SenderThread:20872 [sender.py:transition_state():614] send defer: 13
+2025-11-18 13:13:26,365 DEBUG   SenderThread:20872 [sender.py:send_request():406] send_request: poll_exit
+2025-11-18 13:13:26,365 DEBUG   HandlerThread:20872 [handler.py:handle_request():158] handle_request: defer
+2025-11-18 13:13:26,365 INFO    HandlerThread:20872 [handler.py:handle_request_defer():184] handle defer: 13
+2025-11-18 13:13:26,365 DEBUG   SenderThread:20872 [sender.py:send_request():406] send_request: defer
+2025-11-18 13:13:26,365 INFO    SenderThread:20872 [sender.py:send_request_defer():610] handle sender defer: 13
+2025-11-18 13:13:26,365 INFO    SenderThread:20872 [sender.py:transition_state():614] send defer: 14
+2025-11-18 13:13:26,365 DEBUG   HandlerThread:20872 [handler.py:handle_request():158] handle_request: defer
+2025-11-18 13:13:26,365 INFO    HandlerThread:20872 [handler.py:handle_request_defer():184] handle defer: 14
+2025-11-18 13:13:26,365 DEBUG   SenderThread:20872 [sender.py:send():379] send: final
+2025-11-18 13:13:26,365 DEBUG   SenderThread:20872 [sender.py:send():379] send: footer
+2025-11-18 13:13:26,365 DEBUG   SenderThread:20872 [sender.py:send_request():406] send_request: defer
+2025-11-18 13:13:26,365 INFO    SenderThread:20872 [sender.py:send_request_defer():610] handle sender defer: 14
+2025-11-18 13:13:26,372 DEBUG   HandlerThread:20872 [handler.py:handle_request():158] handle_request: poll_exit
+2025-11-18 13:13:26,372 DEBUG   SenderThread:20872 [sender.py:send_request():406] send_request: poll_exit
+2025-11-18 13:13:26,389 DEBUG   HandlerThread:20872 [handler.py:handle_request():158] handle_request: internal_messages
+2025-11-18 13:13:26,390 DEBUG   HandlerThread:20872 [handler.py:handle_request():158] handle_request: get_summary
+2025-11-18 13:13:26,390 DEBUG   HandlerThread:20872 [handler.py:handle_request():158] handle_request: sampled_history
+2025-11-18 13:13:26,397 DEBUG   HandlerThread:20872 [handler.py:handle_request():158] handle_request: shutdown
+2025-11-18 13:13:26,397 INFO    HandlerThread:20872 [handler.py:finish():882] shutting down handler
+2025-11-18 13:13:27,382 INFO    WriterThread:20872 [datastore.py:close():296] close: D:\OneDrive - Queen's University\Multimodal-Quiz\Multimodal-Quiz\code\wandb\run-20251118_131304-hzlcqqzd\run-hzlcqqzd.wandb
+2025-11-18 13:13:27,382 INFO    SenderThread:20872 [sender.py:finish():1615] shutting down sender
+2025-11-18 13:13:27,382 INFO    SenderThread:20872 [file_pusher.py:finish():169] shutting down file pusher
+2025-11-18 13:13:27,382 INFO    SenderThread:20872 [file_pusher.py:join():175] waiting for file pusher

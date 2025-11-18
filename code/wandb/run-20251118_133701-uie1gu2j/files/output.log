@@ -1,0 +1,40 @@
+[fold 2] train=60 val=16 test=19
+  epoch 01 | train_loss=1.5533 | val_loss=1.8134
+  epoch 02 | train_loss=1.3623 | val_loss=1.7961
+  epoch 03 | train_loss=1.0445 | val_loss=1.7826
+  epoch 04 | train_loss=1.2168 | val_loss=1.7696
+  epoch 05 | train_loss=1.4900 | val_loss=1.7654
+  epoch 06 | train_loss=1.3811 | val_loss=1.7649
+  epoch 07 | train_loss=1.4924 | val_loss=1.7591
+  epoch 08 | train_loss=1.4579 | val_loss=1.7438
+  epoch 09 | train_loss=1.2511 | val_loss=1.7054
+  epoch 10 | train_loss=1.2744 | val_loss=1.6669
+  epoch 11 | train_loss=0.9497 | val_loss=1.6646
+  epoch 12 | train_loss=0.9642 | val_loss=1.6807
+  epoch 13 | train_loss=1.0979 | val_loss=1.7690
+  epoch 14 | train_loss=0.8726 | val_loss=1.7397
+  epoch 15 | train_loss=1.1562 | val_loss=1.7132
+  epoch 16 | train_loss=0.7316 | val_loss=1.7189
+  epoch 17 | train_loss=0.8663 | val_loss=1.7215
+  epoch 18 | train_loss=1.1422 | val_loss=1.7225
+  epoch 19 | train_loss=1.1603 | val_loss=1.7206
+  epoch 20 | train_loss=0.8376 | val_loss=1.7050
+  epoch 21 | train_loss=1.1129 | val_loss=1.6420
+  epoch 22 | train_loss=0.9921 | val_loss=1.5841
+  epoch 23 | train_loss=1.2894 | val_loss=1.5372
+  epoch 24 | train_loss=0.8861 | val_loss=1.5183
+  epoch 25 | train_loss=0.7984 | val_loss=1.5354
+  epoch 26 | train_loss=0.7191 | val_loss=1.5497
+  epoch 27 | train_loss=1.2003 | val_loss=1.5482
+  epoch 28 | train_loss=0.6132 | val_loss=1.5474
+  epoch 29 | train_loss=1.1437 | val_loss=1.5477
+  epoch 30 | train_loss=0.7465 | val_loss=1.5658
+  epoch 31 | train_loss=0.9824 | val_loss=1.5903
+  epoch 32 | train_loss=0.9505 | val_loss=1.6225
+  epoch 33 | train_loss=0.8317 | val_loss=1.6440
+  epoch 34 | train_loss=0.8141 | val_loss=1.6936
+  epoch 35 | train_loss=1.2645 | val_loss=1.5577
+  epoch 36 | train_loss=0.7612 | val_loss=1.7374
+  early stop.
+[info] Saved ABMIL checkpoint for fold 2 to D:\OneDrive - Queen's University\Multimodal-Quiz\Multimodal-Quiz\outputs\checkpoints\abmil_meanpool_fold2.pth
+[fold 2] C-index = 0.740

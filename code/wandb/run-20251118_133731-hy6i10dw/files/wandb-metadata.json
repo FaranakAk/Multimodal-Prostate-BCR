@@ -1,0 +1,47 @@
+{
+    "os": "Windows-10-10.0.26100-SP0",
+    "python": "3.8.18",
+    "heartbeatAt": "2025-11-18T18:37:33.686550",
+    "startedAt": "2025-11-18T18:37:31.356749",
+    "docker": null,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "d:\\onedrive - queen's university\\multimodal-quiz\\multimodal-quiz\\code\\044_train_abmil_survival.py",
+    "codePathLocal": "044_train_abmil_survival.py",
+    "codePath": "044_train_abmil_survival.py",
+    "host": "folding163",
+    "username": "fakbarifar",
+    "executable": "C:\\Users\\fakbarifar\\anaconda3\\envs\\CreateChallenge\\python.exe",
+    "cpu_count": 8,
+    "cpu_count_logical": 8,
+    "cpu_freq": {
+        "current": 3600.0,
+        "min": 0.0,
+        "max": 3600.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 3600.0,
+            "min": 0.0,
+            "max": 3600.0
+        }
+    ],
+    "disk": {
+        "/": {
+            "total": 1862.8906211853027,
+            "used": 945.5573616027832
+        }
+    },
+    "gpu": "NVIDIA GeForce RTX 2080 Ti",
+    "gpu_count": 1,
+    "gpu_devices": [
+        {
+            "name": "NVIDIA GeForce RTX 2080 Ti",
+            "memory_total": 11811160064
+        }
+    ],
+    "memory": {
+        "total": 63.829498291015625
+    }
+}

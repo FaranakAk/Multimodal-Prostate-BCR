@@ -1,0 +1,17 @@
+[fold 3] train=60 val=16 test=19
+  epoch 01 | train_loss=1.5944 | val_loss=1.5056
+  epoch 02 | train_loss=1.5505 | val_loss=1.5056
+  epoch 03 | train_loss=1.3341 | val_loss=1.5056
+  epoch 04 | train_loss=1.5560 | val_loss=1.5056
+  epoch 05 | train_loss=1.8630 | val_loss=1.5056
+  epoch 06 | train_loss=1.6929 | val_loss=1.5056
+  epoch 07 | train_loss=1.8711 | val_loss=1.5056
+  epoch 08 | train_loss=1.8308 | val_loss=1.5056
+  epoch 09 | train_loss=1.7065 | val_loss=1.5056
+  epoch 10 | train_loss=1.8718 | val_loss=1.5056
+  epoch 11 | train_loss=1.5781 | val_loss=1.5056
+  epoch 12 | train_loss=1.8194 | val_loss=1.5056
+  epoch 13 | train_loss=1.3683 | val_loss=1.5056
+  early stop.
+[info] Saved ABMIL checkpoint for fold 3 to D:\OneDrive - Queen's University\Multimodal-Quiz\Multimodal-Quiz\outputs\checkpoints\abmil_noclin_fold3.pth
+[fold 3] C-index = 0.564

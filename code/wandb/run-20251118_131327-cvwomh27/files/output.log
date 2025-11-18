@@ -1,0 +1,30 @@
+[fold 1] train=60 val=16 test=19
+  epoch 01 | train_loss=1.7684 | val_loss=1.5660
+  epoch 02 | train_loss=1.4167 | val_loss=1.5665
+  epoch 03 | train_loss=1.5814 | val_loss=1.5562
+  epoch 04 | train_loss=1.5228 | val_loss=1.5495
+  epoch 05 | train_loss=1.3929 | val_loss=1.5456
+  epoch 06 | train_loss=1.2072 | val_loss=1.5452
+  epoch 07 | train_loss=1.2067 | val_loss=1.5442
+  epoch 08 | train_loss=1.4507 | val_loss=1.5455
+  epoch 09 | train_loss=1.2006 | val_loss=1.5244
+  epoch 10 | train_loss=1.3129 | val_loss=1.5184
+  epoch 11 | train_loss=1.2454 | val_loss=1.5056
+  epoch 12 | train_loss=1.2469 | val_loss=1.5479
+  epoch 13 | train_loss=1.3790 | val_loss=1.5596
+  epoch 14 | train_loss=1.0759 | val_loss=1.4994
+  epoch 15 | train_loss=0.6612 | val_loss=1.4928
+  epoch 16 | train_loss=0.9211 | val_loss=1.5306
+  epoch 17 | train_loss=0.8892 | val_loss=1.5337
+  epoch 18 | train_loss=0.8471 | val_loss=1.5404
+  epoch 19 | train_loss=1.0101 | val_loss=1.5708
+  epoch 20 | train_loss=1.1653 | val_loss=1.6081
+  epoch 21 | train_loss=1.2299 | val_loss=1.5816
+  epoch 22 | train_loss=0.9398 | val_loss=1.6357
+  epoch 23 | train_loss=1.0204 | val_loss=1.7387
+  epoch 24 | train_loss=1.0259 | val_loss=1.7737
+  epoch 25 | train_loss=0.6964 | val_loss=1.7626
+  epoch 26 | train_loss=0.8824 | val_loss=1.7211
+  epoch 27 | train_loss=1.1154 | val_loss=1.7065
+  early stop.
+[fold 1] C-index = 0.685

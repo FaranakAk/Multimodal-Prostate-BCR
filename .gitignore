@@ -1,0 +1,5 @@
+# Ignore all medical image volumes
+*.mha
+*.MHA
+
+*.gz

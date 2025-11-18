@@ -1,0 +1,26 @@
+[fold 4] train=60 val=16 test=19
+  epoch 01 | train_loss=1.5964 | val_loss=1.8007
+  epoch 02 | train_loss=1.4920 | val_loss=1.7953
+  epoch 03 | train_loss=1.1391 | val_loss=1.7787
+  epoch 04 | train_loss=1.2698 | val_loss=1.7708
+  epoch 05 | train_loss=1.5873 | val_loss=1.7642
+  epoch 06 | train_loss=1.4271 | val_loss=1.7640
+  epoch 07 | train_loss=1.5851 | val_loss=1.7630
+  epoch 08 | train_loss=1.6438 | val_loss=1.7562
+  epoch 09 | train_loss=1.4085 | val_loss=1.7457
+  epoch 10 | train_loss=1.4667 | val_loss=1.7450
+  epoch 11 | train_loss=1.0788 | val_loss=1.7898
+  epoch 12 | train_loss=1.4356 | val_loss=1.7538
+  epoch 13 | train_loss=1.0929 | val_loss=1.8548
+  epoch 14 | train_loss=1.3875 | val_loss=1.8585
+  epoch 15 | train_loss=1.0755 | val_loss=1.8681
+  epoch 16 | train_loss=1.1610 | val_loss=1.8871
+  epoch 17 | train_loss=1.0226 | val_loss=1.8872
+  epoch 18 | train_loss=0.9614 | val_loss=1.8873
+  epoch 19 | train_loss=0.9843 | val_loss=1.9248
+  epoch 20 | train_loss=0.8447 | val_loss=1.9830
+  epoch 21 | train_loss=1.4678 | val_loss=1.9876
+  epoch 22 | train_loss=1.0561 | val_loss=2.0642
+  early stop.
+[info] Saved ABMIL checkpoint for fold 4 to D:\OneDrive - Queen's University\Multimodal-Quiz\Multimodal-Quiz\outputs\checkpoints\abmil_meanpool_fold4.pth
+[fold 4] C-index = 0.780

@@ -1,0 +1,78 @@
+wandb_version: 1
+
+epochs:
+  desc: null
+  value: 50
+lr:
+  desc: null
+  value: 0.001
+weight_decay:
+  desc: null
+  value: 0.0001
+H_INST:
+  desc: null
+  value: 384
+H_CLS:
+  desc: null
+  value: 32
+D_FEAT:
+  desc: null
+  value: 1728
+D_CLS:
+  desc: null
+  value: 13
+ABLATE_NO_CLIN:
+  desc: null
+  value: false
+ABLATE_NO_POS:
+  desc: null
+  value: false
+ABLATE_MEAN_POOL:
+  desc: null
+  value: true
+MOD_FILTER:
+  desc: null
+  value: null
+EXPERIMENT_TAG:
+  desc: null
+  value: meanpool
+_wandb:
+  desc: null
+  value:
+    python_version: 3.8.18
+    cli_version: 0.17.5
+    framework: huggingface
+    huggingface_version: 4.40.1
+    is_jupyter_run: false
+    is_kaggle_kernel: false
+    start_time: 1763491000
+    t:
+      1:
+      - 1
+      - 5
+      - 11
+      - 49
+      - 53
+      - 55
+      - 105
+      2:
+      - 1
+      - 5
+      - 11
+      - 49
+      - 53
+      - 55
+      - 105
+      3:
+      - 2
+      - 13
+      - 16
+      - 23
+      4: 3.8.18
+      5: 0.17.5
+      6: 4.40.1
+      8:
+      - 3
+      - 5
+      - 13
+      13: windows-amd64

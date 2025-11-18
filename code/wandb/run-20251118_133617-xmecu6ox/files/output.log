@@ -1,0 +1,30 @@
+[diag] dims → d_feat=1728, H_INST=384, d_clin_in=13, d_clin_out=32
+[fold 0] train=60 val=16 test=19
+  epoch 01 | train_loss=1.7657 | val_loss=1.6786
+  epoch 02 | train_loss=1.5126 | val_loss=1.5932
+  epoch 03 | train_loss=1.6245 | val_loss=1.5583
+  epoch 04 | train_loss=1.7981 | val_loss=1.5414
+  epoch 05 | train_loss=1.5872 | val_loss=1.5350
+  epoch 06 | train_loss=1.2933 | val_loss=1.5343
+  epoch 07 | train_loss=1.3943 | val_loss=1.5280
+  epoch 08 | train_loss=1.4694 | val_loss=1.5117
+  epoch 09 | train_loss=1.3322 | val_loss=1.4540
+  epoch 10 | train_loss=1.3394 | val_loss=1.4105
+  epoch 11 | train_loss=1.5206 | val_loss=1.3548
+  epoch 12 | train_loss=1.3464 | val_loss=1.2878
+  epoch 13 | train_loss=1.5620 | val_loss=1.2370
+  epoch 14 | train_loss=1.1468 | val_loss=1.3150
+  epoch 15 | train_loss=0.8518 | val_loss=1.3405
+  epoch 16 | train_loss=1.1913 | val_loss=1.3144
+  epoch 17 | train_loss=1.2011 | val_loss=1.3117
+  epoch 18 | train_loss=1.2145 | val_loss=1.3116
+  epoch 19 | train_loss=1.2438 | val_loss=1.3152
+  epoch 20 | train_loss=1.1192 | val_loss=1.3220
+  epoch 21 | train_loss=1.2315 | val_loss=1.3485
+  epoch 22 | train_loss=1.0583 | val_loss=1.3797
+  epoch 23 | train_loss=1.2087 | val_loss=1.4188
+  epoch 24 | train_loss=1.2189 | val_loss=1.3946
+  epoch 25 | train_loss=0.8159 | val_loss=1.3661
+  early stop.
+[info] Saved ABMIL checkpoint for fold 0 to D:\OneDrive - Queen's University\Multimodal-Quiz\Multimodal-Quiz\outputs\checkpoints\abmil_meanpool_fold0.pth
+[fold 0] C-index = 0.631

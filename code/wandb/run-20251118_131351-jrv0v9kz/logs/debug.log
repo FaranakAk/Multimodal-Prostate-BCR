@@ -1,0 +1,35 @@
+2025-11-18 13:13:51,518 INFO    MainThread:12708 [wandb_setup.py:_flush():76] Current SDK version is 0.17.5
+2025-11-18 13:13:51,518 INFO    MainThread:12708 [wandb_setup.py:_flush():76] Configure stats pid to 12708
+2025-11-18 13:13:51,518 INFO    MainThread:12708 [wandb_setup.py:_flush():76] Loading settings from C:\Users\fakbarifar\.config\wandb\settings
+2025-11-18 13:13:51,522 INFO    MainThread:12708 [wandb_setup.py:_flush():76] Loading settings from D:\OneDrive - Queen's University\Multimodal-Quiz\Multimodal-Quiz\code\wandb\settings
+2025-11-18 13:13:51,522 INFO    MainThread:12708 [wandb_setup.py:_flush():76] Loading settings from environment variables: {}
+2025-11-18 13:13:51,522 INFO    MainThread:12708 [wandb_setup.py:_flush():76] Applying setup settings: {'_disable_service': False}
+2025-11-18 13:13:51,522 INFO    MainThread:12708 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program_relpath': '044_train_abmil_survival.py', 'program_abspath': "d:\\onedrive - queen's university\\multimodal-quiz\\multimodal-quiz\\code\\044_train_abmil_survival.py", 'program': "d:\\onedrive - queen's university\\multimodal-quiz\\multimodal-quiz\\code\\044_train_abmil_survival.py"}
+2025-11-18 13:13:51,522 INFO    MainThread:12708 [wandb_setup.py:_flush():76] Applying login settings: {}
+2025-11-18 13:13:51,522 INFO    MainThread:12708 [wandb_init.py:_log_setup():529] Logging user logs to D:\OneDrive - Queen's University\Multimodal-Quiz\Multimodal-Quiz\code\wandb\run-20251118_131351-jrv0v9kz\logs\debug.log
+2025-11-18 13:13:51,522 INFO    MainThread:12708 [wandb_init.py:_log_setup():530] Logging internal logs to D:\OneDrive - Queen's University\Multimodal-Quiz\Multimodal-Quiz\code\wandb\run-20251118_131351-jrv0v9kz\logs\debug-internal.log
+2025-11-18 13:13:51,522 INFO    MainThread:12708 [wandb_init.py:init():569] calling init triggers
+2025-11-18 13:13:51,522 INFO    MainThread:12708 [wandb_init.py:init():576] wandb.init called with sweep_config: {}
+config: {'epochs': 50, 'lr': 0.001, 'weight_decay': 0.0001, 'H_INST': 384, 'H_CLS': 32, 'D_FEAT': 1728, 'D_CLS': 13, 'ABLATE_NO_CLIN': False, 'ABLATE_NO_POS': False, 'ABLATE_MEAN_POOL': False, 'MOD_FILTER': None}
+2025-11-18 13:13:51,522 INFO    MainThread:12708 [wandb_init.py:init():619] starting backend
+2025-11-18 13:13:51,522 INFO    MainThread:12708 [wandb_init.py:init():623] setting up manager
+2025-11-18 13:13:51,522 INFO    MainThread:12708 [backend.py:_multiprocessing_setup():105] multiprocessing start_methods=spawn, using: spawn
+2025-11-18 13:13:51,526 INFO    MainThread:12708 [wandb_init.py:init():631] backend started and connected
+2025-11-18 13:13:51,526 INFO    MainThread:12708 [wandb_init.py:init():720] updated telemetry
+2025-11-18 13:13:51,526 INFO    MainThread:12708 [wandb_init.py:init():753] communicating run to backend with 90.0 second timeout
+2025-11-18 13:13:54,005 INFO    MainThread:12708 [wandb_run.py:_on_init():2435] communicating current version
+2025-11-18 13:13:54,433 INFO    MainThread:12708 [wandb_run.py:_on_init():2444] got version response upgrade_message: "wandb version 0.23.0 is available!  To upgrade, please run:\n $ pip install wandb --upgrade"
+
+2025-11-18 13:13:54,433 INFO    MainThread:12708 [wandb_init.py:init():804] starting run threads in backend
+2025-11-18 13:13:54,904 INFO    MainThread:12708 [wandb_run.py:_console_start():2413] atexit reg
+2025-11-18 13:13:54,904 INFO    MainThread:12708 [wandb_run.py:_redirect():2255] redirect: wrap_raw
+2025-11-18 13:13:54,904 INFO    MainThread:12708 [wandb_run.py:_redirect():2320] Wrapping output streams.
+2025-11-18 13:13:54,904 INFO    MainThread:12708 [wandb_run.py:_redirect():2345] Redirects installed.
+2025-11-18 13:13:54,904 INFO    MainThread:12708 [wandb_init.py:init():847] run started, returning control to user process
+2025-11-18 13:14:15,328 INFO    MainThread:12708 [wandb_run.py:_finish():2107] finishing run faranak-akbarifar-queen-s-university/prostate_multimodal/jrv0v9kz
+2025-11-18 13:14:15,328 INFO    MainThread:12708 [wandb_run.py:_atexit_cleanup():2374] got exitcode: 0
+2025-11-18 13:14:15,328 INFO    MainThread:12708 [wandb_run.py:_restore():2352] restore
+2025-11-18 13:14:15,328 INFO    MainThread:12708 [wandb_run.py:_restore():2358] restore done
+2025-11-18 13:14:21,205 INFO    MainThread:12708 [wandb_run.py:_footer_history_summary_info():4016] rendering history
+2025-11-18 13:14:21,205 INFO    MainThread:12708 [wandb_run.py:_footer_history_summary_info():4048] rendering summary
+2025-11-18 13:14:21,213 INFO    MainThread:12708 [wandb_run.py:_footer_sync_info():3975] logging synced files

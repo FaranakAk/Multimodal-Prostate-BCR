@@ -1,0 +1,18 @@
+[diag] dims → d_feat=1728, H_INST=384, d_clin_in=13, d_clin_out=32
+[fold 0] train=60 val=16 test=19
+  epoch 01 | train_loss=1.7943 | val_loss=1.8856
+  epoch 02 | train_loss=1.5622 | val_loss=1.8856
+  epoch 03 | train_loss=1.8397 | val_loss=1.8856
+  epoch 04 | train_loss=1.8364 | val_loss=1.8856
+  epoch 05 | train_loss=1.6661 | val_loss=1.8856
+  epoch 06 | train_loss=1.4153 | val_loss=1.8856
+  epoch 07 | train_loss=1.5628 | val_loss=1.8856
+  epoch 08 | train_loss=1.7665 | val_loss=1.8856
+  epoch 09 | train_loss=1.5468 | val_loss=1.8856
+  epoch 10 | train_loss=1.6192 | val_loss=1.8856
+  epoch 11 | train_loss=1.8192 | val_loss=1.8856
+  epoch 12 | train_loss=1.7776 | val_loss=1.8856
+  epoch 13 | train_loss=1.8340 | val_loss=1.8856
+  early stop.
+[info] Saved ABMIL checkpoint for fold 0 to D:\OneDrive - Queen's University\Multimodal-Quiz\Multimodal-Quiz\outputs\checkpoints\abmil_noclin_fold0.pth
+[fold 0] C-index = 0.464

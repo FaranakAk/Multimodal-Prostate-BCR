@@ -1,0 +1,16 @@
+{
+  "age_at_prostatectomy": 68,
+  "primary_gleason": 3,
+  "secondary_gleason": 4,
+  "ISUP": 2,
+  "pre_operative_PSA": 8.1,
+  "BCR": "0.0",
+  "time_to_follow-up/BCR": 63.1,
+  "pT_stage": "3a",
+  "positive_lymph_nodes": "0",
+  "capsular_penetration": "1",
+  "positive_surgical_margins": 0,
+  "invasion_seminal_vesicles": "0",
+  "lymphovascular_invasion": "0.0",
+  "earlier_therapy": "none"
+}

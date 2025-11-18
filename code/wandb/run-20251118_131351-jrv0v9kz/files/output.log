@@ -1,0 +1,40 @@
+[fold 2] train=60 val=16 test=19
+  epoch 01 | train_loss=1.5396 | val_loss=1.8283
+  epoch 02 | train_loss=1.3737 | val_loss=1.7991
+  epoch 03 | train_loss=1.0147 | val_loss=1.7803
+  epoch 04 | train_loss=1.1713 | val_loss=1.7695
+  epoch 05 | train_loss=1.4641 | val_loss=1.7642
+  epoch 06 | train_loss=1.3119 | val_loss=1.7637
+  epoch 07 | train_loss=1.4221 | val_loss=1.7600
+  epoch 08 | train_loss=1.4597 | val_loss=1.7478
+  epoch 09 | train_loss=1.2852 | val_loss=1.7158
+  epoch 10 | train_loss=1.3026 | val_loss=1.6697
+  epoch 11 | train_loss=0.9755 | val_loss=1.6894
+  epoch 12 | train_loss=1.0882 | val_loss=1.7397
+  epoch 13 | train_loss=1.0740 | val_loss=1.8172
+  epoch 14 | train_loss=0.9404 | val_loss=1.7945
+  epoch 15 | train_loss=0.9224 | val_loss=1.7774
+  epoch 16 | train_loss=0.7391 | val_loss=1.7821
+  epoch 17 | train_loss=0.9693 | val_loss=1.7835
+  epoch 18 | train_loss=1.2168 | val_loss=1.7846
+  epoch 19 | train_loss=1.2984 | val_loss=1.7791
+  epoch 20 | train_loss=0.7827 | val_loss=1.7494
+  epoch 21 | train_loss=0.9633 | val_loss=1.6968
+  epoch 22 | train_loss=0.9026 | val_loss=1.6409
+  epoch 23 | train_loss=1.4284 | val_loss=1.5641
+  epoch 24 | train_loss=0.8257 | val_loss=1.5467
+  epoch 25 | train_loss=0.8794 | val_loss=1.5451
+  epoch 26 | train_loss=0.6803 | val_loss=1.5621
+  epoch 27 | train_loss=1.3647 | val_loss=1.5686
+  epoch 28 | train_loss=0.8209 | val_loss=1.5698
+  epoch 29 | train_loss=0.9627 | val_loss=1.5696
+  epoch 30 | train_loss=1.3379 | val_loss=1.5788
+  epoch 31 | train_loss=0.9707 | val_loss=1.5855
+  epoch 32 | train_loss=0.9941 | val_loss=1.5637
+  epoch 33 | train_loss=0.8336 | val_loss=1.5776
+  epoch 34 | train_loss=0.8294 | val_loss=1.5840
+  epoch 35 | train_loss=1.2719 | val_loss=1.6203
+  epoch 36 | train_loss=0.5526 | val_loss=1.7109
+  epoch 37 | train_loss=0.3290 | val_loss=1.7866
+  early stop.
+[fold 2] C-index = 0.714
