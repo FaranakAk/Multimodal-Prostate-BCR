@@ -119,3 +119,21 @@ Each run:
 - Saves fold-wise checkpoints in outputs/checkpoints/abmil_<tag>_fold{k}.pth,
 - Saves case-wise predictions to:
 outputs/abmil_casewise_predictions_<tag>.csv.
+
+
+## 4. Pretrained models (HuggingFace)
+I uploaded the ABMIL multimodal model checkpoints for the full experiment:
+
+abmil_full_fold0.pth … abmil_full_fold4.pth (5 folds)
+
+HuggingFace repo:
+https://huggingface.co/FaranakAk/prostate-abmil-bcr/tree/main
+
+## 5. Case-wise prediction CSV
+The directory outputs/ contains:
+- cox_clin_casewise_predictions.csv
+- abmil_casewise_predictions_full.csv
+- abmil_casewise_predictions_noclin.csv
+- abmil_casewise_predictions_meanpool.csv
+
+
